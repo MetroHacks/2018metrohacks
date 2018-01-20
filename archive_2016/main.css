@@ -1,0 +1,895 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	font-family: 'bebas_neuebold';
+	font-size: 60pt;
+	color: #071d40;
+}
+
+p {
+	font-family: 'LatoWebLight';
+	font-size: 26pt;
+	color: #071d40;
+	margin-top: 30px;
+}
+
+a {
+	color: #071d40;
+}
+
+.card {
+	width: 100vw;
+	max-width: 100%;
+	padding: 100px;
+	text-align: center;
+}
+
+.vcenter {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#down-arrow {
+	width: 80px;
+	height: 34px;
+	margin: 0 auto;
+	top: 80%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	background-image: url('img/chevron-down.png');
+	background-size: cover;
+	cursor: pointer;
+	display: none;
+}
+
+#jumbo-header #header-content {
+	margin: auto;
+}
+
+.metro-orange {
+	color: #ff5a00;
+}
+
+.metro-thin {
+	font-family: 'bebas_neuelight';
+}
+
+#jumbo {
+	padding: 0;
+	height: 100vh;
+	background-image: url("img/boston.jpg");
+	background-size: cover;
+}
+
+#logotype {
+	width: 800px;
+	height: 400px;
+	top: 34%;
+	background-image: url('img/metro-logotype-banner.png');
+	background-size: cover;
+	margin: auto;
+}
+
+#button-box {
+	width: 500px;
+	height: 150px;
+
+	position: absolute;
+	top: 50%;
+	
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+#register {
+	width: 240px;
+	height: 144px;
+	float: left;
+	display: inline-block;
+	background-image: url('img/register-button.png');
+	background-size: cover;
+	cursor: pointer;
+
+	position: relative;
+	top: 30px;
+}
+
+#gallery {
+	width: 302px;
+	height: 134px;
+	top: 20px;
+	display: inline-block;
+	margin: auto;
+	background-image: url('img/gallery-button.png');
+	background-size: cover;
+	cursor: pointer;
+
+	position: relative;
+}
+
+#gallery:hover {
+	opacity: 0.7;
+}
+
+#sponsor {
+	width: 240px;
+	height: 144px;
+	float: right;
+	display: inline-block;
+	background-image: url('img/sponsor-button.png');
+	background-size: cover;
+	cursor: pointer;
+}
+
+#register:hover {
+	opacity: 0.7;
+}
+
+#sponsor:hover {
+	opacity: 0.7;
+}
+
+#jumbo-header {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	width: 100vw;
+	max-width: 100%;
+	height: 80px;
+	background-color: rgba(255,255,255,0.7);
+
+	z-index: 10000;
+}
+
+#jumbo-header #header-content {
+	margin: auto;
+}
+
+p b {
+	font-family: 'LatoWebBold';
+}
+
+#team-carousel-wrapper {
+	width: 100%;
+	overflow: auto;
+	padding: 20px 0 0 0;
+}
+
+#team-carousel-prev {
+	width: 60px;
+	height: 220px;
+	display: inline-block;
+	float: left;
+
+	background-image: url('img/chevron-left.png');
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	cursor: pointer;
+}
+
+#team-carousel-next {
+	width: 60px;
+	height: 220px;
+	display: inline-block;
+	float: right;
+
+	background-image: url('img/chevron-right.png');
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	cursor: pointer;
+}
+
+#team-carousel {
+	width: 680px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 0;
+}
+
+.team-member {
+	width: 160px;
+	height: 200px;
+	padding: 10px;
+}
+
+.team-pic {
+	width: 150px;
+	height: 150px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.team-pic img {
+	width: 150px;
+}
+
+.team-blurb {
+	width: 150px;
+	height: 60px;
+	margin-top: 10px;
+}
+
+.metro-heavy {
+	font-family: 'LatoWebHeavy';
+}
+
+.team-blurb p {
+	width: 150px;
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+}
+
+p.team-desc {
+	font-size: 16px;
+	font-family: 'LatoWebLight';
+	font-style: italic;
+}
+
+#sponsors img {
+	padding: 5px;
+}
+
+.smaller-wide-sponsor {
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+#smaller-sponsors {
+	margin: auto;
+	width: 80%;
+	text-align: center;
+}
+
+#smaller-sponsors img {
+	width: 200px;
+
+}
+
+#about-content {
+	width: 800px;
+	margin: auto;
+}
+
+#sponsors-content {
+	width: 80vw;
+	margin: auto;
+}
+
+#sponsors-content img {
+	margin: auto;
+}
+
+#sponsors-content a div {
+	background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+}
+
+#press-content a {
+	text-decoration: none;
+}
+
+
+#press-content {
+	width: 80vw;
+	margin: auto;
+}
+
+h1.sponsors{
+	color: #ff5a00;
+}
+
+.big-sponsor {
+	width: 750px;
+}
+
+.mid-sponsor {
+	width: 500px;
+}
+
+.lil-sponsor {
+	height: 108px;
+}
+
+.bebas-thin {
+	font-family: 'bebas_neuebook';
+}
+
+#sponsors-content a {
+	margin: 0;
+}
+
+#sponsors {
+	width: 100%;
+	margin-top: 40px;
+	background: #05122d;
+	background: -moz-linear-gradient(-45deg,  #05122d 0%, #0d377a 100%);
+	background: -webkit-linear-gradient(-45deg,  #05122d 0%,#0d377a 100%);
+	background: linear-gradient(135deg,  #05122d 0%,#0d377a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05122d', endColorstr='#0d377a',GradientType=1 );
+
+	text-align: center;
+}
+
+#press {
+	background: #bababa;
+	background: -moz-linear-gradient(-45deg,  #bababa 0%, #ededed 100%);
+	background: -webkit-linear-gradient(-45deg,  #bababa 0%,#ededed 100%);
+	background: linear-gradient(135deg,  #bababa 0%,#ededed 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bababa', endColorstr='#ededed',GradientType=1 );
+	text-align: center;
+	padding: 20px;
+}
+
+.press {
+	height: 80px;
+}
+
+span.news {
+	font-family: 'bebas_neuebold';
+	color: #071d40;
+	font-size: 30px;
+	display: inline-block;
+	transform: translateY(-25px);
+	-webkit-transform: translateY(-25px);
+	-ms-transform: translateY(-25px);
+}
+
+.press img {
+	cursor: pointer;
+}
+
+#header {
+	width: 100vw;
+	max-width: 100%;
+	height: 80px;
+	background-color: rgba(255,255,255,0.95);
+	position: fixed;
+	top: -80px;
+	left: 0;
+	border-bottom: 1px solid #071d40;
+
+	z-index: 10000;
+}
+
+#header-logo-group {
+	cursor: pointer;
+}
+
+.header-element {
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	font-family: 'bebas_neuebold';
+	font-size: 27px;
+	color: #071d40;
+	margin: 0 10px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.header-element:hover {
+	opacity: 0.8;
+}
+
+.header-element.soc-icon {
+	margin: 0 0;
+}
+
+.header-hbar {
+	width: 1px;
+	height: 50px;
+	background-color: #071d40;
+}
+
+#header-logo-group:hover {
+	opacity: 0.8;
+}
+
+#header-content {
+	width: 850px;
+	margin: auto;
+	height: 50px;
+	text-align: center;
+}
+
+#header-content div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#header-metro-logo {
+	height: 50px;
+	width: 50px;
+	background-image: url("img/metro-logo-300.png");
+	background-size: cover;
+	margin-right: 10px;
+}
+
+#header-metro-text {
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	font-family: 'bebas_neuebold';
+	font-size: 30px;
+	color: #071d40;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
+#fb-icon {
+	width: 50px;
+	height: 50px;
+	background-image: url('img/social.png');
+	background-position: 0 50px;
+	background-size: 200% 200%;
+}
+
+#gp-icon {
+	width: 45px;
+	height: 50px;
+	background-image: url('img/social.png');
+	background-position: 0 0;
+	background-size: 200% 200%;
+}
+
+#in-icon {
+	width: 45px;
+	height: 50px;
+	background-image: url('img/linkedin.png');
+	background-size: cover;
+}
+
+#tw-icon {
+	width: 50px;
+	height: 50px;
+	background-image: url('img/social.png');
+	background-position: 50px 0;
+	background-size: 200% 200%;
+}
+
+#md-icon {
+	width: 47px;
+	height: 50px;
+	background-image: url('img/social.png');
+	background-position: 50px 50px;
+	background-size: 200% 200%;
+}
+
+
+#supporters {
+	width: 100%;
+	margin-top: 40px;
+}
+
+#contact {
+	background-color: #414141;
+}
+
+#contact-content {
+	width: 800px;
+	margin: auto;
+}
+
+#contact-content h1 {
+	color: #ff5a00;
+}
+
+#contact-content a {
+	color: white;
+}
+
+#contact-content p {
+	color: white;
+}
+
+#press-content h1 {
+	color: #ff5a00;
+}
+
+
+.metro-white {
+	color: white;
+}
+
+#centerbox {
+	width: 400px;
+	height: 400px;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin: auto;
+	text-align: center;
+}
+
+#centerbox p {
+	margin-top: 0px;
+}
+
+#centerbox p strong {
+	font-family: 'LatoWebBold';
+}
+
+p.btn {
+	background-color: #071d40;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+
+p.btn a {
+	color: white;
+	text-decoration: none;
+}
+
+span#team {
+	text-align: center;
+}
+
+#stats {
+	background-image: url('img/stats-bkg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#stats-table {
+	width: 798px;
+	height: 200px;
+	margin: auto;
+}
+
+div.stat {
+	width: 266px;
+	height: 200px;
+	padding: 20px;
+	float: left;
+}
+
+.statistic {
+	text-align: center;
+}
+
+.statistic-number {
+	font-family: 'bebas_neuebold';
+	font-size: 120px;
+	color: white;
+	display: block;
+}
+
+.statistic-units {
+	font-family: 'LatoWebBold';
+	font-size: 40px;
+	color: white;
+}
+
+.statistic-number h1 {
+	padding: 0;
+	margin: 0;
+}
+
+#faq-content {
+	width: 80vw;
+	margin: auto;
+}
+
+.faq-bit h3 {
+	font-size: 40px;
+	font-family: 'bebas_neuebold';
+}
+
+#faq-content h1 {
+	margin-bottom: 20px;
+}
+
+.faq-bit p {
+	font-size: 23px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+.faq-bit {
+	width: 350px;
+	height: 250px;
+	padding: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#schedule {
+	background-image: url("img/room.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+#schedule-content h1 {
+	margin-bottom: 20px;
+	color: white;
+}
+
+#schedule-content {
+	width: 600px;
+	margin: auto;
+	font-family: 'LatoWebBold';
+	color: white;
+	font-size: 25px;
+}
+
+.schedule-row {
+	width: 600px;
+	height: 30px;
+	font-size: 40px;
+}
+
+.schedule-row.header {
+	height: 50px;
+}
+
+.schedule-time {
+	width: 250px;
+	float: left;
+	display: inline-block;
+	text-align: left;
+	font-size: 25px;
+}
+
+.schedule-event {
+	width: 350px;
+	float: right;
+	display: inline-block;
+	text-align: left;
+	font-size: 25px;
+}
+
+h2.sponsors-other {
+	font-size: 50px !important;
+	margin-top: 60px;
+	font-family: 'bebas_neuebold';
+	font-size: 60pt;
+	color: #ff5a00;
+	margin-bottom: 20px;
+}
+
+.lil-partner {
+	height: 150px;
+	margin: 10px;
+}
+
+@media screen and (min-width: 701px) {
+	
+	.schedule-time-m {
+		display: none;
+	}
+	.schedule-time {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	body {
+		overflow-x: hidden;
+	}
+	#header, #jumbo-header {
+		display: none;
+	}
+
+	#faq {
+		padding: 0;
+	}
+	#faq-content {
+		padding-left: 0;
+	}
+	#faw-content h1 {
+		font-size: 32px;
+	}
+	.faq-bit {
+	    width: 80vw;
+	    margin-bottom: 10vh;
+	}
+
+
+    #schedule .schedule-row {
+    	width: 80vw;
+    	margin: auto;
+    }
+
+    #schedule .schedule-time {
+    	width: 30vw;
+    }
+    #schedule .schedule-event {
+    	width: 50vw;
+    }
+	.schedule-time-m {
+		display: inline-block;
+		float: left;
+	    text-align: left;
+	    height: 50px;
+	}
+	.schedule-time {
+		display: none;
+	}
+	.schedule-row, .schedule-event {
+	}
+
+
+
+	#stats-table {
+		width: 266px;
+		height: 650px;
+		margin: auto;
+	}
+	div.stat {
+		display: block;
+		margin: auto;
+	}
+
+	span#team {
+		display: none;
+	}
+	#jumbo {
+		padding: 0;
+	}
+	.card {
+		padding: 40px;
+	}
+    #logotype {
+    	width: 60vw;
+    	height: 60vw;
+    	background-size: cover;
+    	background-image: url('img/metro-logo-silhouette-white.png');
+    }
+    #button-box {
+    	width: 80vw;
+    	height: 24vw;
+    }
+    #register {
+    	width: 38vw;
+    	height: 23vw;
+    }
+    #sponsor {
+    	width: 38vw;
+    	height: 23vw;
+    }
+
+    #about-content h1 {
+    	font-size: 60px;
+    }
+    #about-content p {
+    	font-size: 30px;
+    }
+    #about-content {
+    	width: 100%;
+    	margin: 40px 0;
+    }
+
+    #contact-content h1 {
+    	font-size: 60px;
+    }
+    #contact-content p {
+    	font-size: 30px;
+    }
+    #contact-content {
+    	width: 100%;
+    }
+
+    #schedule-content h1 {
+    	font-size: 60px;
+    }
+    #schedule-content p {
+    	font-size: 30px;
+    }
+    #schedule-content {
+    	width: 100%;
+    }
+
+    #schedule div {
+    	font-size: 15px;
+    }
+
+    #sponsors-content a div {
+    	width: 100%;
+    	background-size: contain;
+    }
+
+    .big-sponsor {
+		/*width: 80vw;*/
+		/*height: 24vw;*/
+		
+	}
+
+	.big-sponsor {
+		width:80vw;
+	}
+
+	.mid-sponsor {
+		width:59vw;
+	}
+
+	.lil-sponsor {
+		width: 50vw;
+		/*height: 24vw;*/
+		height: inherit;
+	}
+
+	.statistic-number {
+		font-size: 20vw;
+	}
+
+	h1 {
+		font-size: 12vw;
+	}
+
+
+	#team {
+		display: none;
+	}
+
+	#sponsors {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-height: 500px) {
+
+	#header, #jumbo-header {
+		display: none;
+	}
+
+
+	span#team {
+		display: none;
+	}
+	#logotype {
+		width: 60vw;
+		height: 30vw;
+	}
+
+	#button-box {
+		width: 50vw;
+		height: 25vw;
+		bottom:10%;
+	}
+
+	#sponsor {
+		width: 24vw;
+		height: 14.4vw;
+	}
+	#register {
+		width: 24vw;
+		height: 14.4vw;
+	}
+
+}
+
+@media screen and (max-width: 700px) and (orientation:landscape) {
+
+	#logotype {
+		width: 30vw;
+		height: 30vw;
+	}
+}

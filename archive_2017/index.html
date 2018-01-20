@@ -1,0 +1,501 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta property="og:url"                content="http://metrohacks.co" />
+		<meta property="og:title"              content="MetroHacks 2017 | New England High School Hackathon" />
+		<meta property="og:description"        content="The largest high school coding competition in New England, with free registration, admission, food, and prizes for 300 participants." />
+		<meta property="og:image"              content="http://metrohacks.co/img/social/ogimg.jpg" />
+		<title>MetroHacks 2017 | New England High School Hackathon</title>
+		
+		<meta name="google-site-verification" content="yEs0d8USgxjh97ydEtUnl5R3Ut4nDpCsuTsnKUTa2ZI" />
+
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+		<script src="js/jquery-3.1.1.min.js"></script>
+
+		<link rel="stylesheet" href="css/main.css" />
+
+		<!--favicon-->
+
+		<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+	</head>
+	<body>
+		<div id="jumbo-nav">
+			<div id="jumbo-nav-content" class="vcenter">
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#about').offset().top });">
+					ABOUT
+				</div>
+				<!-- <div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#press').offset().top });">
+					PRESS
+				</div> -->
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#faq').offset().top });">
+					FAQ
+				</div>
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#schedule').offset().top });">
+					SCHEDULE
+				</div>
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#speakers').offset().top });">
+					SPEAKERS
+				</div>
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#sponsors').offset().top });">
+					SPONSORS
+				</div>
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#contact').offset().top });">
+					CONTACT
+				</div>
+
+				<div class="jumbo-header-social">
+					<div class="jumbo-header-social-icon fbicon" onclick="window.open('https://www.facebook.com/MetroHacks/')">
+					</div>
+					<div class="jumbo-header-social-icon twicon" onclick="window.open('https://twitter.com/MetroHacks')">
+					</div>
+					<div class="jumbo-header-social-icon micon" onclick="window.open('https://medium.com/@MetroHacks')">
+					</div>
+					<div class="jumbo-header-social-icon gpicon" onclick="window.open('https://plus.google.com/+MetroHacksHS')">
+					</div>
+					<div class="jumbo-header-social-icon liicon" onclick="window.open('https://www.linkedin.com/company/7603099')">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div id="reg-nav">
+			<div id="jumbo-nav-content" class="vcenter">
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#about').offset().top });">
+					ABOUT
+				</div>
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#press').offset().top });">
+					PRESS
+				</div>
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#faq').offset().top });">
+					FAQ
+				</div>
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#schedule').offset().top });">
+					SCHEDULE
+				</div>
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#sponsors').offset().top });">
+					SPONSORS
+				</div>
+				<div class="jumbo-header-element" onclick="$('html, body').animate({ scrollTop: $('#contact').offset().top });">
+					CONTACT
+				</div>
+
+				<div class="jumbo-header-social">
+					<div class="jumbo-header-social-icon regfbicon">
+					</div>
+					<div class="jumbo-header-social-icon regtwicon">
+					</div>
+					<div class="jumbo-header-social-icon regmicon">
+					</div>
+					<div class="jumbo-header-social-icon reggpicon">
+					</div>
+					<div class="jumbo-header-social-icon regliicon">
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<div id="jumbo" class="card">
+			<div id="jumbo-header" class="vcenter">
+				<div id="logo-img"></div>
+				<p class="huge"><span class="light">METROHACKS</span> <span class="bold">II</span></p>
+
+				<p class="small light" style="margin: 3px 0 18px 5px;"><i>WARRIOR ICE ARENA, BOSTON • MAY 20-21, 2017</i></p>
+<!-- 
+				<p class="button" onclick="window.open('http://metrohacks.co/sponsorprospectus.pdf');">SPONSOR</p>
+				<p class="button" onclick="window.open('http://metrohacks.co/register/');">APPLY</p>
+
+				<p class="button" onclick="window.open('http://metrohacks.co/mentor/');">MENTOR</p> -->
+			</div>
+		</div>
+
+		<div id="jumbo-mask" class="card">
+		</div>
+
+		<div id="serrated-top" class="card">
+		</div>
+
+		<div id="winners" class="card">
+			<div id="about-content">
+				<h1>Congratulations to our winners!</h1>
+				<p class="cbody">
+					1st Place - P.I.R. (Portable Insulin Reader)<br/>
+					2nd Place - Party People<br/>
+					3rd Place - ASD Tonization<br/>
+					Most Innovative Hack - Genotech<br/>
+					Best Hardware Hack - Pingus Khan<br/>
+					Best Designed Hack - Bit Slate<br/>
+					Best Beginner Hack - VR Express<br/>
+					CleanTech Award - EcoInfo & Lynks
+				</p>
+			</div>
+		</div>
+
+		<div id="about" class="card">
+			<div id="about-content">
+				<h1>About MetroHacks</h1>
+				<p class="cbody">MetroHacks is the biggest high school hackathon, or tech gathering and competition, in New England. For 24 hours, learn about new technology, talk to industry professionals, meet up with friends, and make new ones. Participate in workshops, learn from speeches, and work with experts from companies like Microsoft, Google, and Red Hat. High school students ages 13-18 can come, regardless of experience. <b>The event is completely free, and meals are provided for all participants</b>.</p>
+				<!-- <div id="expo"></div> -->
+			</div>
+		</div>
+		<div id="team" class="card">
+			<div id="about-content">
+				<h1>Our Team</h1>
+
+				<div class="teammate">
+					<img src="./img/team/aniruddh.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Ani Iyengar</p>
+							<p class="pic-small">Founder</p>
+						</div>
+					</div>
+				</div>
+				<div class="teammate">
+					<img src="./img/team/abhinav.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Abhinav Kurada</p>
+							<p class="pic-small">Founder</p>
+						</div>
+					</div>
+				</div>
+				<div class="teammate">
+					<img src="./img/team/anthony.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Anthony Topper</p>
+							<p class="pic-small">Founder</p>
+						</div>
+					</div>
+				</div>
+				<div class="teammate">
+					<img src="./img/team/shrunothra.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Shrunothra Ambati</p>
+							<p class="pic-small">Founder</p>
+						</div>
+					</div>
+				</div>
+				<div class="teammate">
+					<img src="./img/team/patrick.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Patrick Huie</p>
+							<p class="pic-small">Director, sponsorship</p>
+						</div>
+					</div>
+				</div>
+				<div class="teammate">
+					<img src="./img/team/anushree.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Anushree Iyengar</p>
+							<p class="pic-small">Marketing, outreach</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="teammate">
+					<img src="./img/team/roger.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Roger Ramesh</p>
+							<p class="pic-small">Sponsorship</p>
+						</div>
+					</div>
+				</div>
+				<div class="teammate">
+					<img src="./img/team/betsy.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Betsy Pu</p>
+							<p class="pic-small">Technology, outreach</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="teammate">
+					<img src="./img/team/shashank.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Shashank Madhu</p>
+							<p class="pic-small">Organizer</p>
+						</div>
+					</div>
+				</div> -->
+
+			</div>
+		</div>
+
+		<div id="press" class="card">
+			<div id="press-content">
+				<h1>In The News</h1>
+				<div id="press-array">
+					<div class="press-element">
+						<span class="underlinable"><p class="press-title">&quot;Marlboro students gonna hack around the clock in problem-solving marathon&quot;</p>
+
+						<p class="press-source">&mdash;Worcester Telegram &amp; Gazette</p></span>
+					</div>
+					<div class="press-element">
+						<span class="underlinable"><p class="press-title">&quot;AMSA students organize hackathon&quot;</p>
+						<p class="press-source">&mdash;Metrowest Daily News</p></span>
+					</div>
+					<div class="press-element">
+						<span class="underlinable"><p class="press-title">&quot;In a setting like this, brilliant projects coalesce&quot;</p>
+						<p class="press-source">&mdash;Institute for the Future of Learning</p></span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="faq" class="card">
+			<h1>Frequently Asked Questions</h1>
+			<div id="press-array">
+				<div class="press-element">
+					<p class="press-title">Who can come?</p>
+					<p class="press-source">All high schoolers, aged 13-19, can come! No experience required - if you're motivated and love tech, you're welcome at MetroHacks.</p>
+				</div>
+				<div class="press-element">
+					<p class="press-title">How much does it cost?</p>
+					<p class="press-source">MetroHacks costs <strong>nothing.</strong> Registering and attending is free, and you get free food, t-shirts, prizes, swag and lessons.</p>
+				</div>
+				<div class="press-element">
+					<p class="press-title">What should I bring?</p>
+					<p class="press-source">Bring a Photo ID, laptop, charger, sleeping bag, toiletries, change of clothes. We'll take care of the rest.</p>
+				</div>
+			</div>
+			<div id="press-array">
+				<div class="press-element">
+					<p class="press-title">When is it?</p>
+					<p class="press-source">May 20-21, 2017: Saturday to Sunday, overnight.</p>
+				</div>
+				<div class="press-element">
+					<p class="press-title">Where is it?</p>
+					<p class="press-source">The Warrior Ice Arena @90 Guest St, Boston. The Bruins practice here!</p>
+				</div>
+				<div class="press-element">
+					<p class="press-title">How do I form a team?</p>
+					<p class="press-source">You'll have time to find a team when you arrive. If you already have a team, just list your teammates when you register.</p>
+				</div>
+			</div>
+			<div id="press-array">
+				<div class="press-element">
+					<p class="press-title">You got hardware?</p>
+					<p class="press-source">We've got tons of cool hardware- Particle photon kits, 3D imaging sensors, and more!</p>
+				</div>
+				<div class="press-element">
+					<p class="press-title">What can I win?</p>
+					<p class="press-source">We're working with some <a href="#sponsors">awesome companies</a> to give out tons of prizes. Check back later to see a list of all the prizes.</p>
+				</div>
+				<div class="press-element">
+					<p class="press-title">I have more questions!!</p>
+					<p class="press-source">Hit us up <a href="mailto:info@metrohacks.co">here.</a></p>
+				</div>
+			</div>
+			<br/><br/>
+			<p class="cbody">For more information about MetroHacks, send us an email at <a href="mailto:info@metrohacks.co">info@metrohacks.co</a>.</p>
+		</div>
+
+		<div id="serrated-bottom" class="card">
+		</div>
+
+		<div id="schedule" class="card">
+			<div id="schedule-content">
+				<h1>Schedule</h1>
+				<!-- <p class="cbody">More info coming soon!</p> -->
+				<p class="cbody">
+					<strong>Saturday, May 20th, 2017</strong><br/>
+					9:00am - 9:50am Registration and networking <br/>
+					10:00am-11:30am opening ceremony and speeches<br/>
+					11:30am - 12:00pm sponsor fair<br/>
+					12:00pm - 12:45pm lunch and team formations<br/>
+					1:00pm hacking begins<br/>
+					1:00pm - 7:30pm hacking and activities<br/>
+					7:30pm - 8:30pm dinner<br/>
+					8:30pm hacking continues<br/>
+					<br/>
+					<strong>Sunday, May 21st, 2017</strong><br/>
+					9:30am Project submission deadline<br/>
+					10:00am - Hacking ends, judging begins<br/>
+					11:45am - 12:15pm Brunch on the bleachers<br/>
+					12:30pm - 1:40pm Hack Demos & Award Ceremony  <br/>
+					2:00pm - 2:30pm Closing Remarks<br/>
+					<br/>
+				</p>
+				<p></p>
+			</div>
+		</div>
+
+		<div id="serrated-top" class="card ushift">
+		</div>
+
+		<div id="speakers" class="card">
+			<div id="sponsors-content">
+				<h1>Featured Speakers</h1>
+
+				<div class="teammate">
+					<img src="./img/speaker/eric-richards.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Eric Richard</p>
+							<p class="pic-small">VP of Engineering, Hubspot</p>
+						</div>
+					</div>
+				</div>
+				<div class="teammate">
+					<img src="./img/speaker/tom-ebling.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Tom Ebling</p>
+							<p class="pic-small">Chief Commerce Officer, Salesforce</p>
+						</div>
+					</div>
+				</div>
+				<div class="teammate">
+					<img src="./img/speaker/christopher-stone.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Christopher Stone</p>
+							<p class="pic-small">Chief Product Officer, Acquia</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="teammate">
+					<img src="./img/team/shrunothra.jpg" />
+					<div class="teammate-mask">
+						<div class="teammate-mask-container vcenter">
+							<p class="pic-big">Shrunothra Ambati</p>
+							<p class="pic-small">Founder</p>
+						</div>
+					</div>
+				</div> -->
+				
+
+			</div>
+		</div>
+
+		<div id="workshops" class="card">
+			<div id="contact-content">
+				<h1>Workshops & Events</h1>
+				<p class="cbody" style="font-size:1.5em">
+					<strong>Saturday, May 20th, 2017</strong><br/>
+					1:00 - 1:50pm Django (3rd Floor Lobby)<br/>
+					1:00 - 1:50pm Team Mixer (outside)<br/>
+					2:00 - 3:15pm Using Cognitive APIs and AI in Your Applications (3rd Floor Lobby)<br/>
+					3:30 - 4:45pm Developing Holographic Applications for MS Mixed Reality (3rd Floor Lobby)<br/>
+					3:30 - 4:45pm Team Games (outside)<br/>
+					5:00 - 5:45pm How to Pitch your Hack (3rd Floor Lobby)<br/>
+					6:00 - 7:00pm Java Processing Games  (Event Room 1)<br/>
+					6:30 - 7:30pm Intro to Design with HTML/CSS  (Event Room 2)<br/>
+					8:00 - 9:00pm Intro to Node.js  (Event Room 2)<br/>
+					8:45 - 9:45pm - On Being a Woman in Tech (location TBD)</br>
+				</p>
+			</div>
+		</div>
+
+		<div id="sponsors" class="card">
+			<div id="sponsors-content">
+				<h1>Sponsors</h1>
+				<p class="cbody">Interested in reaching out to the young hacker community?</p>
+				<p class="cbody">Email <a href="mailto:sponsor@metrohacks.co">sponsor@metrohacks.co</a>, and view sponsor info <a href="http://metrohacks.co/sponsorprospectus.pdf">here</a>.</p>
+				<br>
+				
+				<br><h1 style="color:black;text-align:center">Co-Hosted by:</h1>
+				<a target="_blank" href="http://www.staples.com/"  class="sponsor-title"><img src="img/sponsor/staples2.png" style="width:100%"></a>
+				<br><br>
+
+				<br><h1 style="color:gold;text-align:center">GOLD</h1><br>
+				<a target="_blank" href="http://microsoftnewengland.com/"><img src="img/sponsor/microsoft.png" class="sponsor-big"></a>
+				<a target="_blank" href="https://www.ktbyte.com/"><img src="img/sponsor/ktbyte.png" class="sponsor-big"></a>
+				<a target="_blank" href="http://www.masscec.com/"><img src="img/sponsor/masscec.png" class="sponsor-big"></a>
+				<a target="_blank" href="https://www.privateinternetaccess.com/"><img src="img/sponsor/private-internet-access.png" class="sponsor-big"></a>
+				
+				<br><h1 style="color:silver;text-align:center">SILVER</h1><br>
+				<a target="_blank" href="http://www.cisco.com/"><img src="img/sponsor/cisco.png" class="sponsor-med"></a>
+				<a target="_blank" href="https://www.idtech.com/"><img src="img/sponsor/idtech.png" class="sponsor-med"></a>
+				<!-- <a target="_blank" href="https://www.thefirehoseproject.com/"><img src="img/sponsor/firehose.png" class="sponsor-med"></a> -->
+				<a target="_blank" href="http://diamondchallenge.org/"><img src="img/sponsor/diamondchallenge.png" class="sponsor-med"></a>
+				<div style="display:inline-block; cursor:initial" class="sponsor-med"></div> <!---filler to center-align the next sponsor-->
+				<a target="_blank" href="http://www.analog.com"><img src="img/sponsor/analog-devices.png" class="sponsor-med"></a>
+				
+				<br><h1 style="color:brown;text-align:center">BRONZE</h1><br>
+				<a target="_blank" href="http://balsamiq.com/"><img src="img/sponsor/balsamiq.png" class="sponsor-med"></a>
+				<a target="_blank" href="http://aif.org/"><img src="img/sponsor/aif.png" class="sponsor-med"></a>
+				<a target="_blank" href="https://www.todaytix.com/"><img src="img/sponsor/todaytix.png" class="sponsor-med"></a>
+				<a target="_blank" href="http://www.indexexchange.com/"><img src="img/sponsor/indexexchange.png" class="sponsor-med"></a>
+				<a target="_blank" href="http://www.vistaprint.com/"><img src="img/sponsor/vistaprint.png" class="sponsor-med"></a>
+				<a target="_blank" href="https://www.stickermule.com/uses/laptop-stickers"><img src="img/sponsor/stickermule.png" class="sponsor-med"></a>
+				<div style="display:inline-block; cursor:initial; width:133px" class="sponsor-med"></div> <!---filler to center-align the next sponsor-->
+				<a target="_blank" href="http://www.cambridgemedicalasia.com"><img src="img/sponsor/cambridgemedical.png" class="sponsor-med"></a>
+				<a target="_blank" href="https://www.syracuse.edu/"><img src="img/sponsor/syracuse.png" class="sponsor-med"></a>
+				
+				<br><h1 style="color:gray; text-align:center">PARTNERS</h1><br>
+				<a target="_blank" href="http://get.tech/"><img src="img/sponsor/radix.png" class="sponsor-med"></a>
+				<a target="_blank" href="https://www.hackster.io/"><img src="img/sponsor/hackster.png" class="sponsor-med"></a>
+				<a target="_blank" href="https://ubidots.com/"><img src="img/sponsor/ubidots.png" class="sponsor-med"></a>
+				<!-- <div style="display:inline-block; cursor:initial; width:133px" class="sponsor-med"></div> <!---filler to center-align the next sponsor--> 
+				<a target="_blank" href="https://www.sketchapp.com/"><img src="img/sponsor/sketch.png" class="sponsor-med"></a>
+				<a target="_blank" href="https://www.makeschool.com/"><img src="img/sponsor/makeschool.png" class="sponsor-med"></a>
+				<a target="_blank" href="http://www.youdoitelectronics.com/"><img src="img/sponsor/you-do-it.png" class="sponsor-med"></a>
+				<!-- <p class="cbody">Want to sponsor? Email us at <a href="mailto:sponsor@metrohacks.co">sponsor@metrohacks.co</a></p> -->
+			</div>
+		</div>
+
+		<div id="contact" class="card">
+			<div id="contact-content">
+				<h1>Contact Us</h1>
+				<p class="cbody">Drop us a line at <a href="mailto:info@metrohacks.co">info@metrohacks.co</a>.</p>
+			</div>
+		</div>
+
+		<script>
+		// var menu = false;
+		// $(window).scroll(function() {
+		// 	if ($(document).scrollTop() >= $(window).height() && !menu) {
+		// 		$("#reg-nav").animate({
+		// 			top: '0'
+		// 		}, 500);
+		// 		menu = true;
+		// 	}
+		// 	else if ($(document).scrollTop() < $(window).height() && menu) {
+		// 		$("#reg-nav").animate({
+		// 			top: '-70px'
+		// 		}, 500);
+		// 		menu = false;
+		// 	}
+		// 	$(document).scroll(function() {
+		// 		if ($(document).scrollTop() >= $(window).height() && !menu) {
+		// 			$("#reg-nav").animate({
+		// 				top: '0'
+		// 			}, 500);
+		// 			menu = true;
+		// 		}
+		// 		else if ($(document).scrollTop() < $(window).height() && menu) {
+		// 			$("#reg-nav").animate({
+		// 				top: '-70px'
+		// 			}, 500);
+		// 			menu = false;
+		// 		}
+		// 	});
+		// });
+
+		</script>
+	</body>
+</html>

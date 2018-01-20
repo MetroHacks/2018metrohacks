@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MetroHacks 2017: Coming Spring 2017</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+		<link rel="icon" type="image/png" href="favicon.png">
+	</head>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	body,html {
+		width: 100vw;
+		height: 100vh;
+		max-width: 100%;
+		max-height: 100%;
+		font-family: 'Roboto Condensed', sans-serif;
+		color: white;
+
+	}
+	body {
+		overflow: hidden;
+		background: rgb(0,98,168);
+		background: -moz-linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), -moz-linear-gradient(45deg, rgba(0,98,168,0.7) 0%, rgba(0,173,110,0.7) 100%), url('event.jpg');
+		background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.3) 100%), -webkit-linear-gradient(45deg, rgba(0,98,168,0.7) 0%,rgba(0,173,110,0.7) 100%), url('event.jpg'); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(0deg, rgba(0,0,0,0.3) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(45deg, rgba(45, 168, 255, 0.7) 0%,rgba(0, 32, 90, 0.87) 100%), url(event.jpg); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0062a8', endColorstr='#00ad6e',GradientType=1 ), url('event.jpg'); /* IE6-9 fallback on horizontal gradient */
+		background-size: cover;
+
+	}
+
+	#container {
+		width: 900px;
+		height: 350px;
+		margin: auto;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-450px, -175px);
+		-ms-transform: translate(-450px, -175px);
+		-webkit-transform: translate(-450px, -175px);
+	}
+	#container-left {
+		width: 450px;
+		height: 350px;
+		display: inline-block;
+		float: left;
+		background-image: url("metrohacks_wordmark_1.png");
+		background-size: 400px 300px;
+		background-position: center left;
+		background-repeat: no-repeat;
+		/*border-right: 1px solid white;*/
+	}
+	#container-right {
+		width: 450px;
+		height: 350px;
+		display: inline-block;
+		float: right;
+		padding: 45px 60px;
+		/*border-left: 1px solid white;*/
+		background-color: rgba(18, 36, 68, 0.52);
+	}
+	#container-right p {
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 30px;
+		margin-bottom: 20px;
+		text-align: left;
+	}
+	#container-right p.small {
+		font-size: 15px;
+		line-height: 25px;
+		margin-bottom: 5px;
+	}
+
+	a {
+		color: #e8edf1;
+	}
+	</style>
+	<body>
+
+		<div id="container">
+			<div id="container-left"></div>
+			<div id="container-right">
+				<p>New England's biggest high school hackathon gets even bigger.</p>
+				<p>Coming Spring 2017.</p>
+				<p class="small">Join our mailing list <a href="https://metrohacks.typeform.com/to/rvO9mA">here</a>.</p>
+
+				<p class="small">Learn more? <a href="mailto:info@metrohacks.co">info@metrohacks.co</a></p>
+				<p class="small">Sponsor inquiries? <a href="mailto:sponsor@metrohacks.co">sponsor@metrohacks.co</a></p>
+				<p class="small">Last year's site: <a href="http://2016.metrohacks.co">2016.metrohacks.co</a></p>
+			</div>
+		</div>
+
+	</body>
+</html>
